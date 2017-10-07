@@ -1,7 +1,9 @@
+'use strict';
+
 function Player() {
 
 }
 
-Player.prototype.bowl = function(value, scoredcard) {
-  scorecard.bowl(value);
+Player.prototype.bowl = function(value, frame, scorecard) {
+  scorecard.bowl(value, frame);
 };
