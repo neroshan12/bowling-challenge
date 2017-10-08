@@ -28,7 +28,7 @@ Scorecard.prototype.bowl = function(value, frame) {
      this._framescores[frame].push(value);
      this._totalscore += value;
    }
- }
+ };
 
 function sum(a, b) {
   return a + b;
